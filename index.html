@@ -301,7 +301,7 @@
                 <div class="contact-icon">📧</div>
                 <div>
                     <h3>Email</h3>
-                    <p>Your Email Here</p>
+                    <p>tworabafghan217@gmail.com</p>
                 </div>
             </div>
 
@@ -309,7 +309,7 @@
                 <div class="contact-icon">📱</div>
                 <div>
                     <h3>Phone</h3>
-                    <p>Your Phone Here</p>
+                   <p>0702475217</p>
                 </div>
             </div>
 
@@ -324,29 +324,33 @@
         </div>
 
 
-        <div class="contact-box">
+<form class="contact-box"
+      action="mailto:tworabafghan217@gmail.com"
+      method="post"
+      enctype="text/plain">
 
-            <input
-                type="text"
-                id="contactName"
-                placeholder="Your Name">
+    <input
+        type="text"
+        name="Name"
+        placeholder="Your Name"
+        required>
 
-            <input
-                type="email"
-                id="contactEmail"
-                placeholder="Your Email">
+    <input
+        type="email"
+        name="Email"
+        placeholder="Your Email"
+        required>
 
-            <textarea
-                id="contactMessage"
-                placeholder="Your Message"></textarea>
+    <textarea
+        name="Message"
+        placeholder="Your Message"
+        required></textarea>
 
-            <button
-                class="send-btn"
-                onclick="sendMessage()">
-                Send Message 🚀
-            </button>
+    <button type="submit" class="send-btn">
+        Send Message 🚀
+    </button>
 
-        </div>
+</form>
 
     </div>
 
